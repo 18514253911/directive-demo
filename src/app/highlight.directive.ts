@@ -1,6 +1,6 @@
 import { Directive, ElementRef, HostListener, Input, Renderer } from '@angular/core';
 @Directive({
-  selector: '[defaultColor]'
+  selector: '[myHighlight]'
 })
 export class HighlightDirective {
   private _defaultColor = 'red';
@@ -26,7 +26,7 @@ Directive提供@Directive装饰器功能。
 ElementRef注入到指令构造函数中。 这样代码可以访问 DOM 元素。
 Input将数据从绑定表达式传达到指令中。
 Renderer 让代码可以改变 DOM 元素的样式。
- */
+*/
 /**
  * 个人理解：
  * 1、如果没有input的话，直接在标签中加入selector中的属性即可 myHighlight 不需要加[]赋值，如果用[]赋值的形式，如：[myHighlight]="color" 则会报错
