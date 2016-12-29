@@ -1,4 +1,4 @@
-[]<p [style.background]="'lime'" [style.color]="'red'">I am green with envy!</p>
+&lt;p [style.background]="'lime'" [style.color]="'red'"&gt;I am green with envy!&lt;/p&gt;
 设置样式可以用[style.*]的形式，设置样式
 
 
